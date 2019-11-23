@@ -1,0 +1,15 @@
+name: flexo
+version: 0.1.0
+
+authors:
+  - Peter Schulze <peterkschulze@gmail.com>
+
+description: |
+  A simple image comparison library.
+
+dependencies:
+  stumpy_png:
+    github: stumpycr/stumpy_png
+    version: "~> 4.4"
+
+license: MIT
