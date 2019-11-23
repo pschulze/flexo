@@ -6,6 +6,8 @@ corgi_1_path = "examples/corgi-1.png"
 # Path to image of Corgi with darker pink ears
 corgi_2_path = "examples/corgi-2.png"
 
+Dir.mkdir("examples/output") unless Dir.exists?("examples/output")
+
 # Comparing two of the same image
 same_image_result = Flexo.compare(corgi_1_path, corgi_1_path)
 same_image_result.save("examples/output/same_corgi_comparison.png")
