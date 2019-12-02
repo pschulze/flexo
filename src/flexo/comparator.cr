@@ -4,6 +4,9 @@ require "./result"
 
 module Flexo
   class Comparator
+    class SizeComparisonException < Exception
+    end
+
     def initialize(@threshold : Float32 = 0.0)
       @result = Result.new(@threshold)
     end
@@ -13,14 +16,8 @@ module Flexo
       image_b = StumpyPNG.read(image_b_path)
 
       if image_a.pixels.size != image_b.pixels.size
-        raise "Invalid Size Error:
-          Images being compared must be of the same size.
-          #{image_a_path}:
-              width:  #{image_a.width}
-              height: #{image_a.height}
-          #{image_b_path}:
-              width:  #{image_b.width}
-              height: #{image_b.height}"
+        raise SizeComparisonException.new(
+          "images being compared must be of the same size")
       end
 
       diff_pixels = 0
