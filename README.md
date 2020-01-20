@@ -1,5 +1,7 @@
 # Flexo
 
+[![GitHub release](https://img.shields.io/github/release/<YOUR-GITHUB-USERNAME>/<YOUR-REPOSITORY-NAME>.svg)](https://github.com/pschulze/flexo/releases)
+
 For when you want to see if two images aren't quite the same.
 
 <img src="https://i.redd.it/xm1h605lf5l01.jpg" alt="drawing" width="300"/>
@@ -39,7 +41,7 @@ Saves the diff image between the two images to the given path. Differences appea
     ```yml
     ...
     dependencies:
-    stumpy_png:
+    flexo:
       github: pschulze/flexo
       version: "~> 0.1"
     ...

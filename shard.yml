@@ -2,7 +2,7 @@ name: flexo
 version: 0.1.0
 
 authors:
-  - Peter Schulze <peterkschulze@gmail.com>
+  - Peter Schulze <peter@pschulze.dev>
 
 description: |
   A simple image comparison library.
