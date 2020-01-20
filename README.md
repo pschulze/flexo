@@ -1,6 +1,6 @@
 # Flexo
 
-[![GitHub release](https://img.shields.io/github/release/<YOUR-GITHUB-USERNAME>/<YOUR-REPOSITORY-NAME>.svg)](https://github.com/pschulze/flexo/releases)
+[![GitHub release](https://img.shields.io/github/release/pschulze/flexo.svg)](https://github.com/pschulze/flexo/releases)
 
 For when you want to see if two images aren't quite the same.
 
